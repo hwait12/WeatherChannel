@@ -88,7 +88,7 @@
 
         $(document).ready(function(){
            $(':button').click(function(){
-                var message = 'q=' + $('#searchValue').val()+'&days=7';   
+                var message = 'q=' + $('#searchValue').val()+'&days=10';   
                 $.ajax({
                       type: 'GET',
                       url: 'https://api.apixu.com/v1/forecast.json?key=af9ac7f9b64b47f0bdc215901182504',
@@ -113,6 +113,7 @@
                      $('#Day6High').html("<center>" + json.forecast.forecastday[5].day.maxtemp_f + "</center>");
                      $('#Day7Low').html("<center>" + json.forecast.forecastday[6].day.mintemp_f + "</center>");
                      $('#Day7High').html("<center>" + json.forecast.forecastday[6].day.maxtemp_f + "</center>");
+                     
 
                      
                 })
