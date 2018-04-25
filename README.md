@@ -4,20 +4,19 @@
 Web Application Development
 
 ### Assignment Date:  
-(Month Day, Year)
+April 25, 2018
 
 ### Student Name:  
-(First and Last Name)
+Hannah Wait
 
 ### Project Description:
-(In your own words, briefly describe the assignment.)
+In this assignment, I used an API, Ajax, and JSON to pull information from a weather database and display it on my web application
 
 ### View Project:
-(Replace this statement with your Github Page URL that was created when you 
- published the project.)
+https://hwait12.github.io/WeatherChannel/
 
 ### Lessons Learned in the Assignment:
-1. (Briefly describe a lesson/concept learned in this lesson.)
-2. (Briefly describe a lesson/concept learned in this lesson.)
-3. (Briefly describe a lesson/concept learned in this lesson.)
+1. How to get an API key.
+2. How to use Ajax and JSON to retrieve information from a database.
+3. What HTTP responses look like, and how they are helpful for coding.
 
